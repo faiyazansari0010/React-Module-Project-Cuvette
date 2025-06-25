@@ -1,0 +1,237 @@
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(49, 49, 49, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background: white;
+  border-radius: 4px;
+  padding: 20px;
+  width: 70%;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalHeading {
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.grpNameContainer p,
+.chooseColorContainer p {
+  font-weight: 600;
+  margin: 0px;
+}
+
+.grpNameContainer input {
+  width: 60%;
+  height: 15px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.coloursContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.chooseColorContainer,
+.grpNameContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.grpNameContainer{
+  margin-bottom: 50px;
+}
+
+.chooseColorContainer{
+  margin-bottom: 0;
+}
+
+.coloursContainer span {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.createBtn {
+  align-self: flex-end;
+  margin-top: 20px;
+  padding: 8px 24px;
+  background-color: #002cc3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+.errorText {
+  position: absolute;
+  top: 44px;
+  left: 125px;
+  color: red;
+  font-size: 14px;
+  margin-top: -2px;
+}
+
+.groupListContainer {
+  margin-top: 20px;
+  height: 88%;
+  overflow-y: scroll;
+}
+
+.groupListContainer::-webkit-scrollbar {
+  width: 7px;
+}
+
+.groupListContainer::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+.groupListContainer::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.groupListContainer::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.addGroupButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px 17px;
+  font-size: 40px;
+  background-color: #16008b;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.noteTitleSideBar{
+  color: black;
+  font-weight: 600;
+}
+
+.displayPicSideBar{
+  color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 550;
+}
+
+.sideBarContainer {
+  position: relative;
+  height: 100vh;
+  width: 30vw;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.groupItemContainer {
+  margin-right: 3px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0px 10px 30px;
+  text-decoration: none;
+}
+
+.groupItemContainer:hover{
+  background-color: #dcdcdc;
+}
+
+.sideBarTitle {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.active-link {
+  background-color: #dcdcdc;
+}
+
+@media (max-width: 400px) {
+  .chooseColorContainer,
+  .grpNameContainer {
+    margin-bottom: 30px;
+    gap: 16px;
+  }
+
+  .errorText {
+    top: 31px;
+    left: 110px;
+    color: red;
+    font-size: 10px;
+    margin-top: -5px;
+  }
+
+  .grpNameContainer p:first-of-type,
+  .chooseColorContainer p:first-of-type {
+    white-space: nowrap;
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  .grpNameContainer input {
+    width: 60%;
+    height: 10px;
+  }
+
+  .createBtn {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .coloursContainer span {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 320px){
+  .coloursContainer span {
+    width: 15px;
+    height: 15px;
+  }
+  .chooseColorContainer{
+    gap: 12px;
+  }
+}

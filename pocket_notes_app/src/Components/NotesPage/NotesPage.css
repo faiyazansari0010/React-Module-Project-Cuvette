@@ -1,0 +1,176 @@
+.notePageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 100vh;
+  background-color: #dae5f5;
+}
+
+.notePageHeader {
+  color: white;
+  height: 9%;
+  width: 100%;
+  background-color: #001f8b;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.displayPic {
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 12px;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.noteListContainer {
+  box-sizing: border-box;
+  overflow-y: auto;
+  width: 100%;
+  height: 67%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 15px 20px 15px 20px;
+  gap: 15px;
+}
+
+.noteListContainer::-webkit-scrollbar {
+  width: 7px;
+}
+
+.noteListContainer::-webkit-scrollbar-track {
+  background: #50545a;
+  border-radius: 10px;
+}
+
+.noteListContainer::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.noteListContainer::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9; 
+}
+
+.noteBlock {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dateTimeContainer {
+  display: flex;
+  align-self: flex-end;
+  gap: 8px;
+  color: #353535;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.dateTimeContainer p {
+  margin-top: 0;
+}
+
+.seperator {
+  font-size: 24px;
+  transform: translateY(-5px);
+}
+
+.inputTextContainer {
+  box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  height: 24%;
+  width: 100%;
+  background-color: #001f8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  position: relative;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 95%;
+  height: 80%;
+  outline: none;
+  resize: none;
+  border: transparent;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.sendBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+}
+
+.sendBtn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.lockSecureImg {
+  width: 20px;
+  height: 20px;
+}
+
+.notesLogoImg {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.backArrowImg {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.notePageHomeStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.notesHomePageInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pocketNotesDescription {
+  width: 100%;
+  max-width: 450px;
+  text-align: justify;
+}
+
+.lockSecureContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  bottom: 0px;
+}
