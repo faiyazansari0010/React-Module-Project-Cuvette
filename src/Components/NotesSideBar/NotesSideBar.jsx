@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Modal from "react-modal";
 import { useSelector, useDispatch } from "react-redux";
@@ -6,10 +6,6 @@ import { nanoid } from "nanoid";
 import { addNoteGroup, setIsMobileNoteView } from "../../Redux/notesSlice";
 import "./NotesSideBar.css";
 import { useNavigate } from "react-router-dom";
-
-
-
-
 
 const NotesSideBar = () => {
   const navigate = useNavigate();

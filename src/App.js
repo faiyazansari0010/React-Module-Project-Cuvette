@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Modal from "react-modal";
 import NotesPage from "./Components/NotesPage/NotesPage";
 import NotesSideBar from "./Components/NotesSideBar/NotesSideBar";
