@@ -20,3 +20,6 @@ Description:
 • Developed a mobile-responsive UI using CSS media queries to adapt layouts for both desktop and mobile devices, supporting view toggling on small screens.
 
 • Utilized NanoID for generating unique identifiers for groups and notes to maintain data integrity.
+
+
+![ppSCm](https://github.com/user-attachments/assets/081b4f5e-8d2d-4536-bd3d-8fb5138220f3)
