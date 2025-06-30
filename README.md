@@ -28,13 +28,13 @@ Description:
 
 <img src="https://github.com/user-attachments/assets/e7f6b31a-a2aa-4143-83fe-bdf843b316f9" alt="PockeNotesAppSC2" width="600" /> </br>
 
-<img src="https://github.com/user-attachments/assets/f6dcf7c3-1d58-476b-aa3d-1f0cdca21744" alt="Screenshot_20250630-183338" width="250" />
+<img src="https://github.com/user-attachments/assets/f6dcf7c3-1d58-476b-aa3d-1f0cdca21744" alt="Screenshot_20250630-183338" width="240" />
 
-<img src="https://github.com/user-attachments/assets/21c42c3c-713c-4bd2-bf64-762a88768792" alt="Screenshot_20250630-183257" width="250" />
+<img src="https://github.com/user-attachments/assets/21c42c3c-713c-4bd2-bf64-762a88768792" alt="Screenshot_20250630-183257" width="240" />
 
-<img src="https://github.com/user-attachments/assets/423ce418-39c2-49ac-8217-0f43b77638ec" alt="Screenshot_20250630-183215" width="250" />
+<img src="https://github.com/user-attachments/assets/423ce418-39c2-49ac-8217-0f43b77638ec" alt="Screenshot_20250630-183215" width="240" />
 
-<img src="https://github.com/user-attachments/assets/c927d641-454d-449c-9918-aecb80a2d186" alt="Screenshot_20250630-183346" width="250" />
+<img src="https://github.com/user-attachments/assets/c927d641-454d-449c-9918-aecb80a2d186" alt="Screenshot_20250630-183346" width="240" />
 
 
 
