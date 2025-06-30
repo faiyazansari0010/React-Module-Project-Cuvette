@@ -5,6 +5,8 @@ React Module Project - Pocket Notes App created using React JS
 
 Description:
 
+**Tech Used - ReactJS, Redux Toolkit, React Router, LocalStorage, NanoID, CSS (Responsive Design)**
+
 • Developed a **responsive** single-page application for managing **note groups** and individual **notes** using **ReactJS** and **Redux Toolkit** for global state management.
 
 • Implemented **dynamic routing** with **React Router v7** to navigate between groups and individual notes seamlessly.
