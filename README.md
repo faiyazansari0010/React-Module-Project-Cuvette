@@ -30,7 +30,7 @@ Description:
 
 <img src="https://github.com/user-attachments/assets/f6dcf7c3-1d58-476b-aa3d-1f0cdca21744" alt="Screenshot_20250630-183338" width="300" />
 
-<img src="https://github.com/user-attachments/assets/21c42c3c-713c-4bd2-bf64-762a88768792" alt="Screenshot_20250630-183257" width="300" /> </br>
+<img src="https://github.com/user-attachments/assets/21c42c3c-713c-4bd2-bf64-762a88768792" alt="Screenshot_20250630-183257" width="300" /> 
 
 <img src="https://github.com/user-attachments/assets/423ce418-39c2-49ac-8217-0f43b77638ec" alt="Screenshot_20250630-183215" width="300" />
 
