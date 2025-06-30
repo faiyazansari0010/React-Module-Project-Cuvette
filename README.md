@@ -22,7 +22,7 @@ Description:
 • Utilized NanoID for generating unique identifiers for groups and notes to maintain data integrity.
 
 
-<img src="https://github.com/user-attachments/assets/a616f662-a030-4543-9f07-a3759b5fa3b9" alt="PockeNotesAppSC3" width="100"/>
+<img src="https://github.com/user-attachments/assets/a616f662-a030-4543-9f07-a3759b5fa3b9" alt="PockeNotesAppSC3" width="300"/>
 
 <img src="https://github.com/user-attachments/assets/f6dcf7c3-1d58-476b-aa3d-1f0cdca21744" alt="Screenshot_20250630-183338" width="50" />
 
