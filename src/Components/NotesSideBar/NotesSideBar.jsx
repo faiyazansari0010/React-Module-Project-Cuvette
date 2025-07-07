@@ -106,7 +106,7 @@ const NotesSideBar = () => {
       noteDuplicateError: "",
     });
 
-    if (window.innerWidth <= 400) {
+    if (window.innerWidth <=426) {
       dispatch(setIsMobileNoteView(true));
     }
 
@@ -134,7 +134,7 @@ const NotesSideBar = () => {
               }
               key={item.noteID}
               onClick={() => {
-                if (window.innerWidth <= 400) {
+                if (window.innerWidth <= 426) {
                   dispatch(setIsMobileNoteView(true));
                 }
               }}

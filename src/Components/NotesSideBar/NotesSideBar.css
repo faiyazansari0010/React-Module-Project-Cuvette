@@ -188,7 +188,7 @@
   background-color: #dcdcdc;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
   .chooseColorContainer,
   .grpNameContainer {
     margin-bottom: 30px;
@@ -226,7 +226,7 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 325px){
   .coloursContainer span {
     width: 15px;
     height: 15px;
